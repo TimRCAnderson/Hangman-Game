@@ -42,7 +42,6 @@ function setUnderscores()
 
 function updateWord(userKey)
 {
-  console.log("4");
   for(i = 0; i < iThink.length; i++)
   {
     if(iThink.toLowerCase().charAt(i) === userKey)
@@ -108,14 +107,11 @@ function play(pressedKey)
 {
   if(isPlaying && validKeys.indexOf(pressedKey) !== -1)
   {
-    console.log("1");
     if(guesses.indexOf(pressedKey) === -1)
     {
-      console.log("2");
       guesses.push(pressedKey);
       if(iThink.toLowerCase().split("").indexOf(pressedKey) !== -1)
       {
-        console.log("3");
         updateWord(pressedKey);
       }
       else
