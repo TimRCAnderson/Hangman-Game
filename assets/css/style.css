@@ -101,6 +101,11 @@ h2{
 	text-align: left;
 }
 
+.interGame{
+	width: 100%;
+	display: none;
+}
+
 .solution{
 	padding: 10px;
 }
@@ -111,6 +116,28 @@ h2{
 
 #playAgain{
 	background-color: #3c3;
+}
+
+#aWinnerIsYou, #youLose{
+	vertical-align: center;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 60px;
+	padding: 30px 0;
+	border-radius: 15%;
+	margin: -60px -125px;
+	display: none;
+}
+
+#aWinnerIsYou{
+	background-color: #3c3;
+}
+
+#youLose{
+	background-color: #c33;
 }
 
 button{
