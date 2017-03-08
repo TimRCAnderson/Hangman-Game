@@ -87,6 +87,7 @@ function hardReset()
 {
 	losses = 0;
 	wins = 0;
+	updateStats();
 	softReset();
 }
 
