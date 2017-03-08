@@ -1,0 +1,126 @@
+body{
+	font-family: 'Aldrich', sans-serif;
+	text-align: center;
+	vertical-align: center;
+	border-width: 10px;
+	background-image: url(../images/ZakuHeadBackground.jpg);
+	background-size: 100%;
+	background-position: 0px;
+	color: white;
+}
+
+h1{
+	font-size: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+h2{
+	font-size: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#winText, #lossText{
+	padding: 15px 5px 5px 10px;
+	height: 20px;
+	text-align: right;
+	display: inline-block;
+	margin: 0;
+	font-weight: bold;
+}
+
+.solution{
+	margin: 10px;	
+}
+
+#wins, #losses{
+	display: inline-block;
+	text-align: left;
+	width: 150px;
+	padding: 15px 0 5px 0;
+	height: 20px;
+	margin: 0;
+}
+
+#remText, #guessText{
+	padding: 15px 5px 5px 10px;
+	height: 20px;
+	text-align: right;
+	display: inline-block;
+	margin: 0;
+	font-weight: bold;
+}
+
+#remaining, #guesses{
+	display: inline-block;
+	text-align: left;
+	padding: 15px 0 5px 0;
+	height: 20px;
+	margin: 0;
+}
+
+#remaining{
+	width: 150px;
+}
+
+#suitImg{
+	margin: 10px;
+	height: 200px;
+	width: auto;
+}
+
+#suitName{
+	margin: 20px 0 10px 0;
+	font-size: 25px;
+}
+
+#wins{
+	border-right: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.solution, .scoreArea, .playerTrack{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin: 10px;
+	display: inline-block;
+}
+
+.scoreArea{
+	height: 40px;
+}
+
+.segment{
+	overflow: auto;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+}
+
+.solution{
+	padding: 10px;
+}
+
+#hardReset{
+	background-color: #333;
+}
+
+#playAgain{
+	background-color: #3c3;
+}
+
+button{
+	margin: 10px;
+	border: none;
+	width: 150px;
+	padding: 20px;
+	color: white;
+	border-radius: 5%;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Electrolize', sans-serif;;
+}

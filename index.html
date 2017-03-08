@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich|Electrolize" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<title>Mobile Suit Hangman</title>
+</head>
+<body>
+
+	<div>
+		<h1>Mobile Suit Hangman</h1>
+	</div>
+	<div class="solution">
+		<img id="suitImg" src="" alt="Mobile Suit"/>
+		<div id="suitName">_</div>
+	</div>
+	<div id="playArea">
+		<div class="playerTrack">
+			<div class="segment"><div id="guessText"></div><div id="guesses"></div></div>
+			<div class="segment"><div id="remText"></div><div id="remaining"></div></div>
+		</div>
+		<div></div>
+		<div class="scoreArea">
+			<div id="winText">Wins: </div><div id="wins"></div>
+			<div id="lossText"></div><div id="losses"></div>
+		</div>
+	</div>
+
+	<button id="hardReset" onclick="hardReset()">Reset</button>
+
+	<div class="interGame">
+	<button id="playAgain" onclick="playAgain()">Play Again</button>
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</body>
+</html>
